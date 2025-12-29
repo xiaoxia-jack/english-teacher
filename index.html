@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>英语教师 | 10+年教学经验</title>
+  <style>
+    :root {
+      --primary: #4f46e5;
+      --secondary: #06b6d4;
+      --bg: #f8fafc;
+      --text: #0f172a;
+      --muted: #64748b;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "PingFang SC", "Microsoft YaHei", sans-serif;
+    }
+    body {
+      background: linear-gradient(180deg, #eef2ff, #f8fafc 30%);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 20px;
+    }
+    .hero {
+      background: linear-gradient(135deg, var(--primary), var(--secondary));
+      color: #fff;
+      border-radius: 20px;
+      padding: 40px 28px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+      margin-bottom: 40px;
+    }
+    .hero h1 {
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+    .hero p {
+      font-size: 16px;
+      opacity: 0.95;
+    }
+    .taglist {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .tag {
+      background: rgba(255, 255, 255, 0.2);
+      padding: 6px 14px;
+      border-radius: 999px;
+      font-size: 13px;
+    }
+    section {
+      margin-bottom: 48px;
+    }
+    section h2 {
+      font-size: 22px;
+      margin-bottom: 18px;
+      position: relative;
+      padding-left: 12px;
+    }
+    section h2::before {
+      content: "";
+      width: 4px;
+      height: 100%;
+      background: var(--primary);
+      position: absolute;
+      left: 0;
+      top: 0;
+      border-radius: 2px;
+    }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    }
+    .card h3 {
+      font-size: 18px;
+      margin-bottom: 8px;
+    }
+    .card p {
+      font-size: 14px;
+      color: var(--muted);
+    }
+    .timeline {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .timeline-item {
+      background: #fff;
+      border-radius: 14px;
+      padding: 18px 20px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+    }
+    .timeline-item span {
+      font-size: 13px;
+      color: var(--secondary);
+      font-weight: 600;
+    }
+    .timeline-item p {
+      font-size: 14px;
+      color: var(--muted);
+      margin-top: 6px;
+    }
+    .cta {
+      background: linear-gradient(135deg, #0ea5e9, #22c55e);
+      color: #fff;
+      border-radius: 20px;
+      padding: 36px 24px;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+    }
+    .cta h2 {
+      font-size: 26px;
+      margin-bottom: 10px;
+    }
+    .cta p {
+      font-size: 15px;
+      opacity: 0.95;
+    }
+    footer {
+      text-align: center;
+      font-size: 13px;
+      color: var(--muted);
+      margin: 30px 0 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="hero">
+      <h1>英语教师 · 10+年教学经验</h1>
+      <p>
+        深耕小 / 初 / 高英语教学十余年，熟悉应试与能力并重的教学体系，
+        注重长期提升与学习习惯培养。
+      </p>
+      <div class="taglist">
+        <div class="tag">小学英语</div>
+        <div class="tag">初中英语</div>
+        <div class="tag">高中英语</div>
+        <div class="tag">中高考辅导</div>
+        <div class="tag">提分系统</div>
+        <div class="tag">一对一 / 小班</div>
+      </div>
+    </div>
+
+    <section>
+      <h2>关于我</h2>
+      <div class="card">
+        <p>
+          我从事英语教育工作已有 10 多年，长期专注于中小学阶段英语教学。
+          熟悉各年级知识体系与常见学习瓶颈，擅长根据学生基础与目标制定
+          个性化学习方案。
+        </p>
+        <p style="margin-top: 10px">
+          教学风格耐心、清晰、有方法，既重视成绩提升，也重视孩子的
+          英语思维与学习信心。
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <h2>教学优势</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>分层教学</h3>
+          <p>根据学生基础差异，定制不同学习路径，不盲目刷题。</p>
+        </div>
+        <div class="card">
+          <h3>体系清晰</h3>
+          <p>词汇、语法、阅读、写作听说协同推进，结构清楚。</p>
+        </div>
+        <div class="card">
+          <h3>提分导向</h3>
+          <p>紧扣校内考试与中高考要求，注重解题思路与方法。</p>
+        </div>
+        <div class="card">
+          <h3>长期跟踪</h3>
+          <p>关注学习节奏与状态，动态调整教学方案。</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>教学经历</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <span>小学英语阶段</span>
+          <p>注重兴趣培养、语感建立与基础词汇积累。</p>
+        </div>
+        <div class="timeline-item">
+          <span>初中英语阶段</span>
+          <p>系统梳理语法结构，强化阅读理解与写作能力。</p>
+        </div>
+        <div class="timeline-item">
+          <span>高中英语阶段</span>
+          <p>针对高考题型训练，提升综合解题效率与稳定性。</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>欢迎沟通了解</h2>
+      <p>
+        如果您希望为孩子寻找一位经验丰富、方法清晰、
+        注重长期成长的英语老师，欢迎与我联系进一步沟通。
+      </p>
+    </section>
+
+    <footer>
+      © 英语教师个人介绍页 | 静态网页，可直接分享给家长
+    </footer>
+  </div>
+</body>
+</html>
